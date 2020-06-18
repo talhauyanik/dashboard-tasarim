@@ -1,0 +1,322 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    height: 55px;
+    width: 1536px;
+    background-color: rgb(47,60,72);
+    display: flex;
+
+}
+
+.header .title{
+    width: 1260px;
+}
+
+.header .title .fa-bars{
+    margin: 20px 15px;
+    color: rgb(202,228,251);
+    font-size: 20px;
+}
+
+.header .title span{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.header .title .logo{
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.header .bildirim{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.header .bildirim .fa-calendar-alt, .fa-newspaper{
+    color: rgb(202,228,251);
+    font-size: 20px;
+    padding-left: 15px;
+    font-weight: initial;
+}
+
+.bildirim span{
+    color: rgb(202,228,251);
+    padding-left: 20px;
+}
+
+.fa-chevron-down{
+    color: rgb(202,228,251);
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.bildirim .circle{
+    border-radius: 100%;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.main{
+    display: flex;
+}
+
+.sidebar{
+    background-color: rgb(63,81,97);
+    width: 250px;
+    height: 699px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .app, .sap-hana, .portal, .routes, .security, .event, .members, .links, .legal{
+    color: rgb(202,228,251);
+    padding: 12px 3px;
+    border-bottom: 1px solid rgb(73,107,138);
+}
+
+.sidebar span{
+    color: rgb(218,221,224);
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.sidebar .services{
+    color: rgb(202,228,251);
+    padding: 12px 3px;
+}
+
+.sidebar .services .fa-chevron-down{
+    float: right;
+    margin-right: 10px;
+}
+
+.sidebar .service-m{
+    background-color: rgb(73,107,138);
+    padding: 15px 22px;
+}
+
+.sidebar .service-i{
+    background-color: rgb(57,73,88);
+    padding: 15px 22px;
+}
+
+.sidebar .sap-hana .fa-chevron-right{
+    float: right;
+    margin-right: 10px;
+}
+
+.sidebar .space{
+    background-color: rgb(63,81,97);
+    width: 240px;
+    height: 139px;
+    border-bottom: 2px solid rgb(12,134,188) ;
+    margin-left: 5px ;
+}
+
+.top {
+    background-color: white;
+    width: 1286px;
+    height: 180px;
+}
+
+.top .menu{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+    color: rgb(63,148,196) ;
+}
+
+.top .menu .slash{
+    color: rgb(230,230,230);
+    font-size: 18px;
+    
+}
+.top .menu span{
+    padding: 0px 10px;
+    font-weight: 500;
+}
+
+.top .menu .fa-chevron-down{
+    color: rgb(63,148,196);
+}
+
+.content-title{
+    display: flex;
+    height: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 1246px;
+    
+}
+
+.content-title .fa-question-circle{
+    margin-left: 800px;
+    color: rgb(63,148,196);
+}
+
+.content-title span{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.number{
+    padding-left: 20px;
+}
+.search{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding-right: 60px;
+    padding-top: 8px;
+    padding-left: 10px;
+    border: 1px solid rgb(193,193,193);
+    font-style: italic;
+    font-weight: 600;
+    text-align: left;
+    font-size: 15px;
+    color:rgb(193,193,193) ;
+}
+
+.bottom{
+    background-color: rgb(250,250,250);
+    width: 1286px;
+    height: 518px;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.row1 .box{
+    width: 300px;
+    height: 190px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 1px solid rgb(225,225,225);
+    padding: 10px;
+    
+}
+
+.box-title{
+    color: rgb(21,115,166);
+    font-size: 17px;
+    font-weight: 600;
+}
+.box-title .fa-puzzle-piece{
+    color:rgb(0,103,158)
+}
+.altyazi{
+    color: gray;
+    margin-top: 20px;
+    font-weight: 500;
+    
+}
+
+.icerik .fa-project-diagram, .fa-external-link-alt, .fa-chart-bar, .fa-user-shield {
+    font-size: 40px;
+    color: rgb(0,146,209);
+    margin-bottom: 20px;
+}
+
+.icerik{
+    margin: 20px 0px;
+    display: flex;
+}
+
+.icerik2{
+    margin: 20px 0px;
+    display: flex;
+}
+
+.icerik .yazi{
+    padding-left: 10px;
+    color: rgb(57,73,88);
+}
+
+.icerik2 .yazi{
+    padding-left: 10px;
+    color: rgb(57,73,88);
+}
+
+.icerik span{
+    font-size: 15px;
+}
+
+.icerik2 span{
+    font-size: 15px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.row2 .box{
+    width: 300px;
+    height: 190px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 1px solid rgb(225,225,225);
+    padding: 10px;
+}
+
+.icerik2 .fa-puzzle-piece{
+    font-size: 40px;
+}
